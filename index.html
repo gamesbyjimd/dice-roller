@@ -7,12 +7,12 @@
 <body>
   <h2>Click a Button to Roll Dice</h2>
   body: JSON.stringify({ content: "Test message from webhook!" })
-  <button onclick="sendRoll(';roll 1d4')">Roll 1d4</button>
-  <button onclick="sendRoll(';roll 1d6')">Roll 1d6</button>
-  <button onclick="sendRoll(';roll 1d8')">Roll 1d8</button>
-  <button onclick="sendRoll(';roll 1d10')">Roll 1d10</button>
-  <button onclick="sendRoll(';roll 1d12')">Roll 1d12</button>
-  <button onclick="sendRoll(';roll 1d100')">Roll 1d100</button>
+  <button onclick="sendRoll('!roll 1d4')">Roll 1d4</button>
+  <button onclick="sendRoll('!roll 1d6')">Roll 1d6</button>
+  <button onclick="sendRoll('!roll 1d8')">Roll 1d8</button>
+  <button onclick="sendRoll('!roll 1d10')">Roll 1d10</button>
+  <button onclick="sendRoll('!roll 1d12')">Roll 1d12</button>
+  <button onclick="sendRoll('!roll 1d100')">Roll 1d100</button>
 
   <script>
     const webhookURL = "https://discord.com/api/webhooks/1366929329040396428/O3qoRxEIpl4a-eOKbMuU2A5RTFsIOYI2I4lqZxDL7QQWSb2JZqu5kM4IAI7MfiuudiUz";
